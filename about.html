@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About - Rain Water Harvesting</title>
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f9ff;
+      color:#222;
+    }
+
+    header{
+      width:100%;
+      background:#0077b6;
+      padding:18px 8%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .logo{
+      color:#fff;
+      font-size:28px;
+      font-weight:bold;
+    }
+
+    nav ul{
+      display:flex;
+      list-style:none;
+      gap:25px;
+    }
+
+    nav ul li a{
+      color:#fff;
+      text-decoration:none;
+      font-weight:500;
+    }
+
+    .about-hero{
+      height:50vh;
+      background:
+      linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+      url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=1600&auto=format&fit=crop')
+      center/cover no-repeat;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      color:#fff;
+      padding:20px;
+    }
+
+    .about-hero h1{
+      font-size:55px;
+    }
+
+    section{
+      padding:80px 8%;
+    }
+
+    .about-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+      gap:50px;
+      align-items:center;
+    }
+
+    .about-image img{
+      width:100%;
+      border-radius:20px;
+      box-shadow:0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .about-text h2{
+      font-size:40px;
+      color:#0077b6;
+      margin-bottom:20px;
+    }
+
+    .about-text p{
+      color:#555;
+      line-height:1.9;
+      margin-bottom:20px;
+      font-size:17px;
+    }
+
+    .info-section{
+      background:#fff;
+    }
+
+    .info-cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:30px;
+      margin-top:40px;
+    }
+
+    .card{
+      background:#f4f9ff;
+      padding:35px 25px;
+      border-radius:18px;
+      text-align:center;
+      box-shadow:0 5px 15px rgba(0,0,0,0.08);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card i{
+      font-size:50px;
+      color:#00b4d8;
+      margin-bottom:20px;
+    }
+
+    .card h3{
+      color:#0077b6;
+      margin-bottom:15px;
+    }
+
+    .card p{
+      color:#555;
+      line-height:1.7;
+    }
+
+    footer{
+      background:#023e8a;
+      color:#fff;
+      text-align:center;
+      padding:25px;
+      margin-top:40px;
+    }
+
+    @media(max-width:768px){
+
+      nav{
+        display:none;
+      }
+
+      .about-hero h1{
+        font-size:38px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+    <div class="logo">RainSave</div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Benefit.html">Benefits</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="mission.html">Our mission</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+  <section class="about-hero">
+
+    <div>
+      <h1>About Rain Water Harvesting</h1>
+    </div>
+
+  </section>
+
+  <section>
+
+    <div class="about-container">
+
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1521207418485-99c705420785?q=80&w=1200&auto=format&fit=crop"
+        alt="Rain Water Harvesting">
+      </div>
+
+      <div class="about-text">
+
+        <h2>Save Water For Future</h2>
+
+        <p>
+          Rainwater harvesting is the process of collecting and storing rainwater
+          for future use instead of allowing it to run off.
+        </p>
+
+        <p>
+          This method helps in conserving water, increasing groundwater levels,
+          and reducing water scarcity in many areas.
+        </p>
+
+        <p>
+          It is one of the best eco-friendly solutions to save water and protect
+          our environment for future generations.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="info-section">
+
+    <div style="text-align:center;">
+      <h2 style="font-size:40px;color:#0077b6;">
+        Why It Is Important
+      </h2>
+    </div>
+
+    <div class="info-cards">
+
+      <div class="card">
+        <i class="fa-solid fa-droplet"></i>
+        <h3>Water Saving</h3>
+        <p>
+          Stores rainwater for daily household and farming use.
+        </p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-seedling"></i>
+        <h3>Environment Protection</h3>
+        <p>
+          Helps maintain ecological balance and green living.
+        </p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-water"></i>
+        <h3>Groundwater Recharge</h3>
+        <p>
+          Improves underground water levels naturally.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2026 RainSave | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
